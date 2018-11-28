@@ -1,0 +1,10 @@
+body {
+    background-color: #262626;
+}
+
+body,
+.btn,
+.btn-plain {
+    font-family: 'Raleway', sans-serif;
+    color: #B8B8B8;
+}
