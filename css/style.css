@@ -10,7 +10,7 @@ body,
 }
 
 .c-blue {
-    color: #B8B8B8;
+    color: #0080FF;
 }
 
 span {
@@ -165,3 +165,26 @@ h4 {
 .closebtn:hover {
     color: #FF9100;
 }
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+  }
+
+  .footer a {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      padding: 10px;
+      transition: all 0.5s;
+      
+  }
+
+  .footer a:hover {
+      color: #FF9100;
+  }
