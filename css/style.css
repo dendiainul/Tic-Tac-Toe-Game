@@ -42,3 +42,126 @@ button::-moz-focus-inner {
     color: #fff;
     font-weight: bold;
 }
+
+.btn-plain {
+    background-color: transparent;
+    border: none;
+}
+
+.btn-plain:hover {
+    color: #0080FF;
+}
+
+.btn-board {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: none;    
+    background: transparent;
+    font-family: "Raleway", sans-serif;
+    font-size: 70px;
+}
+
+.container {
+    width: 350px;
+    height: 500px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.cb2,
+.cb3 {
+    display: none;
+}
+
+.container-body {
+    position: relative;
+    top: 120px;
+}
+
+.title {
+    position: relative;
+    top: 100px;
+    font-size: 50px;
+    font-weight: normal;
+    color: #0080FF;
+}
+
+.txtPlayers,
+.scoreboard {
+    position: relative;
+    color: #0080FF;
+}
+
+#txtPlayer1Score {
+    margin-right: -10px;
+}
+
+#txtPlayer2Score {
+    margin-left: 10px;
+}
+
+#time {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    margin-top: -40px;
+}
+
+h4 {
+    margin-top: -70px;
+}
+
+.grid {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background: #e3e3eb;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1px;
+    margin-bottom: 10px;
+}
+
+.grid > div {
+    background: #262626;
+}
+
+/* Alert */
+
+#txtWinner {
+    color: #fff;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #787878;
+    border-radius: 50px;
+    display: none;
+    width: 300px;
+    position: absolute;
+    top: 250px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.closebtn:hover {
+    color: #FF9100;
+}
