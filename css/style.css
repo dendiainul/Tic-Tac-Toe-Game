@@ -16,3 +16,29 @@ body,
 span {
     color: #FF9100;
 }
+
+button {
+    cursor: pointer;
+    margin: 10px
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+.btn {
+    background: transparent;
+    border-radius: 30px;
+    border: 1px solid #0080FF;
+    padding: 10px 20px 10px 20px;
+    transition: background-color 0.5s ease-out;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+}
+
+.btn:hover {
+    background-color: #0080FF;
+    color: #fff;
+    font-weight: bold;
+}
