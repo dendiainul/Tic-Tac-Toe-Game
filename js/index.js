@@ -465,7 +465,7 @@ $(() => {
             return;
         }
 
-        // X : Blue   O : Pink
+        // X : Blue   O : Orange
         if (currentPlayer == "X") $("#txtCurrentPlayer").css("color", "#FF9100");
         else $("#txtCurrentPlayer").css("color", "#0080FF");
 
